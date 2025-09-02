@@ -1,0 +1,81 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2b2b2b;
+}
+
+/*========Top Bar=========*/
+.top-bar{
+    background-color: #2b2b2b;
+    color: #ffffff;
+    height: 2.6rem;
+    padding: 0.5rem 0;
+}
+
+
+/*========Navigation Bar=========*/
+
+.navbar-brand img{
+    height: 26px;
+}
+
+.navbar{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    z-index: 1;
+}
+
+.nav-items{
+    padding: 1rem;
+}
+
+.nav-link{
+    color: #2b2b2b;
+}
+
+.nav-link.active, .nav-link:hover{
+    text-decoration: underline;
+}
+
+/* Contact-info */
+.inquiry-form{
+    background-color: #fdeeee;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.submit-btn{
+    padding: 10px 25px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #555555;
+    color: #ffffff;
+}
+
+.submit-btn:hover{
+    background-color: #333333;
+}
+
+.contact-img{
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+      .submit-btn{
+        padding: 4px 12px;
+        font-size: smaller;
+      }
+    }
+
+
+/* Map */
+
+.map p{
+   font-size: 14px; 
+}
+
+/* Footer */
+.foot-box p{
+  font-size: .75rem;
+}
